@@ -1,0 +1,37 @@
+20:59:46.557 INFO - Launching a standalone Selenium Server
+20:59:46.658 INFO - Java: Oracle Corporation 25.111-b14
+20:59:46.658 INFO - OS: Windows 7 6.1 amd64
+20:59:46.676 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+20:59:46.769 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+20:59:46.769 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+20:59:46.782 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
+20:59:46.783 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+20:59:46.783 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+20:59:46.952 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:59:46.952 INFO - Selenium Server is up and running
+20:59:47.585 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:59:47.602 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 2393
+Only local connections are allowed.
+20:59:49.864 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:59:49.883 INFO - Executing: [get: http://localhost:8080])
+20:59:53.986 INFO - Done: [get: http://localhost:8080]
+20:59:54.000 INFO - Executing: [find elements: By.cssSelector: #app])
+20:59:54.062 INFO - Done: [find elements: By.cssSelector: #app]
+20:59:54.073 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (f8903470b2393844320450652d55827b)] -> css selector: #app]])
+20:59:54.114 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (f8903470b2393844320450652d55827b)] -> css selector: #app]]
+20:59:54.128 INFO - Executing: [find elements: By.cssSelector: .hello])
+20:59:54.153 INFO - Done: [find elements: By.cssSelector: .hello]
+20:59:54.160 INFO - Executing: [find element: By.cssSelector: h1])
+20:59:54.190 INFO - Done: [find element: By.cssSelector: h1]
+20:59:54.193 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on XP (f8903470b2393844320450652d55827b)] -> css selector: h1]])
+20:59:54.225 INFO - Done: [get text: 2 [[ChromeDriver: chrome on XP (f8903470b2393844320450652d55827b)] -> css selector: h1]]
+20:59:54.238 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [img]])
+20:59:54.249 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [img]]
+20:59:54.256 INFO - Executing: [delete session: 2b7cf2d0-eaf9-4033-9c67-fa6564be6d98])
+20:59:54.986 INFO - Done: [delete session: 2b7cf2d0-eaf9-4033-9c67-fa6564be6d98]
